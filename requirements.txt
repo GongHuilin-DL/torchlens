@@ -1,0 +1,24 @@
+
+# ===== Core deep-learning framework =====
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ===== Interactive Web UI =====
+gradio>=4.0.0
+
+# ===== Per-layer structure / params / FLOPs analysis =====
+torchinfo>=1.8.0
+
+# ===== Data handling & plotting =====
+pandas>=2.0.0
+plotly>=5.18.0
+
+# ===== ONNX graph export (for Netron) =====
+onnx>=1.15.0
+onnxscript>=0.1.0
+
+# ===== TensorBoard computation graph =====
+tensorboard>=2.15.0
+
+# ===== Optional: view exported .onnx locally =====
+# netron>=7.0.0
